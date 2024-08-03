@@ -29,8 +29,4 @@ interface PostInterface
 	 */
 	public function getSaleDate();
 	
-	// /**
-	// * @return string|null
-	// */
-	// public function getDescription();
 }
