@@ -12,6 +12,11 @@ Download the module:
   4) php bin/magento c:c
   5) chmod -R 0777 var pub generated
 
+Goto AdminDashboard > Reports > Custom Sales Report
+
+![CustomSalesReport Menu under Reports](https://github.com/user-attachments/assets/7c007c8b-49b8-4b4b-8443-2381bbfbce68)
+
+
 
 
 
