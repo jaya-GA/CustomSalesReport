@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+   <table name="sales_order_item" resource="default" engine="innodb" comment="sales_order_item is the existing table name">
+    <column xsi:type="int" name="quantity_sold" unsigned="true" nullable="true" identity="false"
+                comment="Quantity Sold"/> 
+    <column xsi:type="int" name="total_revenue" unsigned="true" nullable="true" identity="false"
+                comment="Total Revenue"/> 
+   </table>
+</schema>

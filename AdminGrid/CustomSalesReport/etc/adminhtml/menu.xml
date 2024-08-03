@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="AdminGrid_CustomSalesReport::customsalesreports" title="Custom Sales Report" module="AdminGrid_CustomSalesReport" sortOrder="1" action="my_front_mame/post/index" resource="AdminGrid_CustomSalesReport::customsalesreports" parent="Magento_Reports::report_salesroot_coupons"/>
+    </menu>
+</config>

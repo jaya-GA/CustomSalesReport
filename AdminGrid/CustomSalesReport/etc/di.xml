@@ -1,0 +1,19 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="admingrid_customsalesreport_post_listing_data_source" xsi:type="string">CustomSalesReportVirtualType</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="CustomSalesReportVirtualType" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">sales_order_item</argument>
+            <argument name="resourceModel" xsi:type="string">AdminGrid\CustomSalesReport\Model\ResourceModel\Post</argument>
+        </arguments>
+    </virtualType>
+    <preference for="AdminGrid\CustomSalesReport\Api\ItemRepositoryInterface"
+                type="AdminGrid\CustomSalesReport\Model\Api\ItemRepository" />
+    <preference for="AdminGrid\CustomSalesReport\Api\Data\PostInterface"
+                type="AdminGrid\CustomSalesReport\Model\Api\Post"/>
+</config>

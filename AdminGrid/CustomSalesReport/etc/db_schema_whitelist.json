@@ -1,0 +1,8 @@
+{
+    "sales_order_item": {
+        "column": {
+            "quantity_sold": true,
+            "total_revenue": true
+        }
+    }
+}
