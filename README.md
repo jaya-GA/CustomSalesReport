@@ -22,6 +22,16 @@ we utilied default magento sales table
 
 ![Custom Sales Report Admin Grid](https://github.com/user-attachments/assets/eaa9c89c-fe5d-4899-b753-4163b934e05c)
 
+For Rest Api:- Open postman application use below endpoints. with get method.
+
+Note: baseurl/rest/V1/rest_test/getCustomsalesreport
+
+http://jaya.magento246.com:8012/rest/V1/rest_test/getCustomsalesreport
+
+
+![RestApi using postman](https://github.com/user-attachments/assets/a9d9024e-2b98-452b-8464-61b439a8d921)
+
+
 
 
 
