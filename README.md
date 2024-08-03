@@ -30,7 +30,7 @@ http://jaya.magento246.com:8012/rest/V1/rest_test/getCustomsalesreport
 
 
 ![RestApi using postman](https://github.com/user-attachments/assets/a9d9024e-2b98-452b-8464-61b439a8d921)
-Note: Model Repository Unit test case files are not completed due to 1 day of assignment.but i know unit testing very well
+
 
 
 
